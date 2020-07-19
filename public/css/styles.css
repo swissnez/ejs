@@ -14,6 +14,16 @@
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
+.search {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #5E5D5D;
+    background-color: #7fffd42b;
+    border-radius: 10%;
+}
 
 .footer-padding {
 	padding-bottom: 60px;

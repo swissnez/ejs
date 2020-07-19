@@ -6,7 +6,8 @@
  
  <% posts.forEach(post=>{ %>  
     <p></p><h3><%=post.title%></h3><p></p>
-         <i><%=post.composeText%></i>
+         <i><%=post.composeText%>...<a href="/post/<%=post.title%>">Read More</a></i>
+         
  <% }); %>
-
+ 
 <%- include("partials/footer") -%>
